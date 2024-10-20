@@ -1,0 +1,7 @@
+requests
+pandas
+flask
+schedule
+pandas
+matplotlib
+flask-cors
