@@ -11,7 +11,7 @@ This project is a real-time data processing system for monitoring weather condit
 - Configurable temperature and condition thresholds to trigger alerts.
 - Store weather data and summaries in JSON format for persistent storage.
 - Visualization of weather summaries and trends (e.g., daily temperature changes).
-  
+
 ## Technologies Used
 
 - **Python 3.9+**
@@ -42,14 +42,7 @@ This project is a real-time data processing system for monitoring weather condit
 
 ## Installation
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/your-repo/weather-monitoring-system.git
-   cd weather-monitoring-system
-   ```
-
-2. **Set up a virtual environment** (optional but recommended):
+1. **Set up a virtual environment** (optional but recommended):
 
    ```bash
    python -m venv venv
@@ -59,7 +52,7 @@ This project is a real-time data processing system for monitoring weather condit
    source venv/bin/activate
    ```
 
-3. **Install dependencies**:
+2. **Install dependencies**:
 
    Install all necessary packages listed in `requirements.txt` by running:
 
@@ -73,7 +66,7 @@ This project is a real-time data processing system for monitoring weather condit
    - `schedule`: For scheduling periodic API calls.
    - `matplotlib`: For generating visualizations.
 
-4. **Get an OpenWeatherMap API Key**:
+3. **Get an OpenWeatherMap API Key**:
 
    - Sign up at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up) and generate your API key.
    - Replace the placeholder in `main.py` with your actual API key:
@@ -127,7 +120,7 @@ To test the core functionalities of the application, you can:
 - Simulate weather API responses for test cases.
 - Run the application and check whether the `data/summaries.json` file is populated correctly.
 - Verify alerting thresholds and ensure alerts are triggered when conditions are met.
-  
+
 ## Troubleshooting
 
 ### 1. **401 Unauthorized Error**:
@@ -153,9 +146,3 @@ To test the core functionalities of the application, you can:
 This project is open-source and available under the MIT License. Feel free to use and modify the code as needed.
 
 ---
-
-### Notes:
-- Replace placeholders such as the GitHub repo URL and API key instructions with your actual details.
-- Ensure that you’ve included `requirements.txt` in your repository for easy installation of dependencies.
-
-Let me know if you'd like to customize any section!
